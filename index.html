@@ -6,23 +6,25 @@
             text-align : center;
         }
     </style>
+    <title>Maximum Development</title>
     <link rel="stylesheet" type="text/css" href="StyleSheet.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
-    <title>Maximum Development</title>
+    <script src="Scripts/jquery-3.1.0.min.js"></script>
+    <script src="jQuery.js" type="text/javascript"></script>
 </head>
-<asp:Content runat="server" ID="FeaturedContent" ContentPlaceHolderID="FeaturedContent">
-    <section class="featured">
-        <div class="content-wrapper">
-            <img src="Images/Maximum6.jpeg" sizes="">
-            <hgroup class="title">
-                <h1>Home Page</h1>
-            </hgroup>
-            <p>
-                Here at Maximum, we are dedicated to our partners and our customers alike. <br /> Our team of developers will stop at nothing to provide you with a solution to your everyday problems.
-            </p>
-            <div>
+<section class="featured">
+    <div class="content-wrapper">
+        <img src="Images/Maximum6.jpeg" sizes="">
+        <hgroup class="title">
+            <h1>Home Page</h1>
+        </hgroup>
+        <p>
+            Here at Maximum, we are dedicated to our partners and our customers alike. <br /> Our team of developers will stop at nothing to provide you with a solution to your everyday problems.
+        </p>
+        <div>
             <p>
                 Some of the solutions we provide are:
+            </p> 
                 <ul>
                     <li>
                         CRM
@@ -47,14 +49,9 @@
                     </li>
                     <li>
                         Software Quality Assurance
-                    </li>
-                    <li>
-                    	<br /><br /><a href="hangman.html" style="color:white;"><div class="qButton" style="width: 300px; margin-left: auto; margin-right: auto"><p id="qstionMk">Want to play Hangman?</p></div></a>
-                    </li>
-                </ul>                        	
-            </p>
-            </div>
+                    </li>                        
+                </ul>                    	            
+            <br /><br /><a href="hangman.html" style="color:white;"><div class="qButton" id="hangmanBtn"><p id="qstionMk">Want to play Hangman?</p></div></a>
         </div>
-    </section>
-
-</asp:Content>
+    </div>
+</section>

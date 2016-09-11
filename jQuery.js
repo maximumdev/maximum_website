@@ -1,20 +1,20 @@
 ﻿$(document).ready(function () {
     $('#guess').animate({
         opacity: '1'
-    }, 1000);
+    }, 3000);
 });
 
 $(document).ready(function () {
     $('#hintButton').hover(
         function () {
-            $('#hintButton').animate({
+            $(this).animate({
                 opacity: '.6'
-            }, 200);
+            }, 40);
         },
         function () {
-            $('#hintButton').animate({
+            $(this).animate({
                 opacity: '1'
-            }, 200);
+            }, 40);
         }
         );
 });
@@ -22,16 +22,29 @@ $(document).ready(function () {
 $(document).ready(function () {
     $('#playAgainButton').hover(
         function () {
-            $('#playAgainButton').animate({
+            $(this).animate({
                 opacity: '.6'
-            }, 200);
+            }, 40);
         },
         function () {
-            $('#playAgainButton').animate({
+            $(this).animate({
                 opacity: '1'
-            }, 200);
-        }
-        );
+            }, 40);
+    });
+});
+
+$(document).ready(function () {
+	$('#hangmanBtn').hover(
+		function () {
+			$(this).animate({
+				opacity: '.6'
+			}, 40);
+		},
+		function () {
+			$(this).animate({
+				opacity: '1'
+			}, 40);
+	});
 });
 
 $(document).ready(function () {

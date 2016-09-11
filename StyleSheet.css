@@ -205,6 +205,12 @@ body {
     opacity: 0;
 }
 
+#hangmanBtn {
+    width: 300px; 
+    margin-left: auto; 
+    margin-right: auto
+}
+
 #hint {
     position: static;
     font-family: Raleway, Cambria, Cochin, Georgia, Times, Times New Roman, serif;
