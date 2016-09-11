@@ -2,6 +2,12 @@
     text-decoration: none;
 }
 
+ul {
+    list-style-position: inside;
+    font-family: Raleway;
+    list-style-type: none;
+}
+
 h1 {
     font-family: Raleway;
     font-size: 24px;
