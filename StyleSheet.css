@@ -69,7 +69,6 @@ body {
 
 
 .qButton {
-    position: absolute;
     border-radius: 10px;
     border: 2px solid #9369E8;
     height: 40px;
@@ -262,7 +261,7 @@ body {
 
 #playAgainButton {
     position: absolute;
-    top: 210px;
+    top: 180px;
     left: 80px;
     border-radius: 10px;
     border: 2px solid #9369E8;
