@@ -1,0 +1,287 @@
+﻿a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-position: inside;
+    font-family: Raleway;
+    list-style-type: none;
+}
+
+h1 {
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+}
+h3 {
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 15.4px;
+}
+p {
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+blockquote {
+    font-family: Raleway;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+pre {
+    font-family: Raleway;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5714px;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+.draw {
+        opacity: 0;
+}
+
+.letter {
+    position: static;
+    margin: 15px;
+    font-size: x-large;
+    font-family: sans-serif;
+    text-align: center;
+    text-align: inherit;
+    width: 20px;
+}
+
+
+.qButton {
+    border-radius: 10px;
+    border: 2px solid #9369E8;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+    background: #9369E8;
+    text-align: center;
+    opacity: 1;    
+}
+
+#answer {
+    position: static;    
+    padding-left: 15px;
+    letter-spacing: 15px;
+    font-size: 36px;
+    font-family: Raleway, Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align: center;
+    opacity: 0;
+}
+
+#draw1 {
+    position: absolute;
+    top: 400px;
+    left: 2.5%;
+    height: 3px;
+    width: 90%;
+    background-color: black;
+
+}
+
+#draw2 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 380px;
+    width: 3px;
+    background-color: black;
+}
+
+#draw3 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 3px;
+    width: 180px;
+    background-color: black;
+}
+
+#draw4 {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    height: 60px;
+    width: 3px;
+    background-color: black;
+}
+
+#draw5 {
+    position: absolute;
+    top: 80px;
+    left: 178.5px;
+    height: 40px;
+    width: 40px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+#draw6 {
+    position: absolute;
+    top: 126px;
+    left: 200px;
+    height: 80px;
+    width: 3px;
+    background-color: black;
+}
+
+#draw7 {
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    height: 60px;
+    width: 3px;
+    background-color: black;
+    transform: rotate(45deg);
+    transform-origin: 0% 0%;
+}
+
+#draw8 {
+    position: absolute;
+    top: 132px;
+    left: 201px;
+    height: 60px;
+    width: 3px;
+    background-color: black;
+    transform: rotate(315deg);
+    transform-origin: 0% 0%;
+}
+
+#draw9 {
+    position: absolute;
+    top: 204px;
+    left: 200px;
+    height: 80px;
+    width: 3px;
+    background-color: black;
+    transform: rotate(20deg);
+    transform-origin: 0% 0%;
+}
+
+#draw10 {
+    position: absolute;
+    top: 204px;
+    left: 200px;
+    height: 80px;
+    width: 3px;
+    background-color: black;
+    transform: rotate(340deg);
+    transform-origin: 0% 0%;
+}
+
+#drawingDiv {
+    position: absolute;
+    border: 0px solid black;
+    height: 500px;
+    width: 400px;
+    z-index:1;
+}
+
+#guess {
+    position: static;
+    font-family: Raleway, Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 28px;
+    text-align: center;
+    opacity: 0;
+}
+
+#hangmanBtn {
+    width: 300px; 
+    margin-left: auto; 
+    margin-right: auto
+}
+
+#hint {
+    position: static;
+    font-family: Raleway, Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 24px;
+    opacity: 0;
+}
+
+#hintButton {
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid #9369E8;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+    background: #9369E8;
+    text-align: center;
+    opacity: 1;    
+}
+
+
+#instructions {
+    position: static;
+    font-family: Raleway, Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 24px;
+}
+
+#myCanvas {
+    top: 100px;
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+#nonAnswer {
+    position: static;
+    padding-left: 15px;
+    margin: 40px;
+    font-family: Raleway, Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 42px;
+    letter-spacing: 15px;
+    text-align: center;
+}
+
+
+
+#qstionMk {
+    font-family: Raleway, Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    position: relative;
+    bottom: 14px;
+    font-size: x-large;
+    color: #ffffff;
+    font: bold;
+}
+
+#playAgainButton {
+    position: absolute;
+    top: 180px;
+    left: 80px;
+    border-radius: 10px;
+    border: 2px solid #9369E8;
+    height: 40px;
+    width: 240px;
+    opacity: 0;        
+}
+
+#wordContainer {
+    position: absolute;
+    left: 430px;
+    width: 450px;
+    height: 450px;
+    border: 0px solid black;
+    padding-top: 20px;
+    text-align: center;
+}

@@ -4,6 +4,7 @@ var ran = getRandomInt(0, 32);
 var ans = words[ran];
 var cutAns = ans.split('');
 var keyDn;
+//You may be able to delete this guess. I pretty much scoped it.
 var guess = [];
 var hints = ['The average weight of this animal is 1,200 lbs', 'It takes 6,000 cows to make one season\'s worth of balls for this sport', 'This food is commonly eaten after being drenched in milk', 'This bean was discovered in Ethiopia circa 800 A.D.', 'This sport is called football in every country except the US and Canada', 'There are 25 billion of these animals in the world', 'This drink does a body good', 'Never trust a ___ farmer', 'This animal has 205 bones in its skeletal system', 'There are 1,777 different types of this food', 'Prior to the 1927-28 season, forward passes were not allowed in this sport', 'Surprisingly, this food doesn\'t wobble underwater', '\"Thunderstruck\" band', 'Mosquito attack', 'Plant pest', 'First person', 'Oklahoma native', 'Birmingham native', 'Pack down', 'The magic word', 'This is where you would go to get a mud bath', 'Snapshot', 'The price of something', 'Surgery souvenirs', 'Fence opening', 'A chick\'s mother', 'To get in touch with', 'Toronto\'s province', 'A salad green', 'Dorothy\'s dog', 'Béchamel and béarnaise', 'Prayer ender', 'Pertness'];
 var numOfWrongAnswers = 0;
@@ -11,6 +12,7 @@ var numOfWrongAnswers = 0;
 
 
 function main() {
+	var guess = [];
     genInput(ans);
     genHint(ran);
     //dispAnswer();
